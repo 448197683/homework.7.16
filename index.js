@@ -24,7 +24,7 @@ function changeBackground(e){
   const colorNum1 = Math.floor(Math.random() * num);
   const colorNum2 = Math.floor(Math.random() * num);
   console.log(colorNum1,colorNum2)
-  document.body.style.background = `liner-gradient(90deg,${colors[colorNum1]},${colors[colorNum2]})`;
+  document.body.style.background = `linear-gradient(90deg,${colors[colorNum1]},${colors[colorNum2]})`;
 }
 
 button.addEventListener("click",changeBackground);
