@@ -1,0 +1,9 @@
+button{
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border: 1px solid black;
+  font-size: 25px;
+  font-weight: 600;
+}
